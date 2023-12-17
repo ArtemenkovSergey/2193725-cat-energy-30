@@ -19,7 +19,7 @@
         </button>
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a class="site-list__link site-list__link--current" href="index.html" aria-current="page">главная</a>
+              <a class="site-list__link site-list__link--current" href="#" aria-current="page">главная</a>
             </li>
             <li class="site-list__item">
               <a class="site-list__link" href="catalog.html">каталог продукции</a>
@@ -60,19 +60,19 @@
         <h2 class="advantages__title">Как это работает</h2>
           <ul class="advantages__list">
             <li class="advantages__item advantages__item--1" >
-              <img src="source/images/icons/tree-leaf.svg" alt="питательные вещества" width="26" height="31">
+              <img src="source/images/icons/tree-leaf.svg" alt="питательные вещества" width="26" height="31" aria-hidden="true">>
               <p class="advantages__description">Функциональное питание содержит только полезные  питательные вещества.</p>
             </li>
             <li class="advantages__item advantages__item--2" >
-              <img src="source/images/icons/instant.svg" alt="быстрорастворимый порошок" width="26" height="31">
+              <img src="source/images/icons/instant.svg" alt="быстрорастворимый порошок" width="26" height="31" aria-hidden="true">>
               <p class="advantages__description">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
             </li>
             <li class="advantages__item advantages__item--3" >
-              <img src="source/images/icons/icon-eat.svg" alt="функциональное питание" width="26" height="31">
+              <img src="source/images/icons/icon-eat.svg" alt="функциональное питание" width="26" height="31" aria-hidden="true">>
               <p class="advantages__description">Замените один-два приема обычной еды на наше функциональное питание.</p>
             </li>
             <li class="advantages__item advantages__item--4" >
-              <img src="source/images/icons/icon-scales.svg" alt="весы" width="26" height="31">
+              <img src="source/images/icons/icon-scales.svg" alt="весы" width="26" height="31" aria-hidden="true">>
               <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
             </li>
           </ul>
@@ -81,26 +81,28 @@
       <section class="example">
         <h2 class="example__intro">Живой пример</h2>
         <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
-        <dl class="stats__list">
-          <div class="stats__item">
-            <dt class="stats__numder">
-              <b>5 кг</b>
-            </dt>
-            <dd class="stats__description">
-            снижение веса
-            </dd>
-          </div>
-          <div class="stats__item">
-            <dt class="stats__numder">
-              <b>60 дней</b>
-            </dt>
-            <dd class="stats__description">
-            затрачено времени
-            </dd>
-          </div>
-        </dl>
+        <div class="stats">
+          <dl class="stats__list">
+            <div class="stats__item">
+              <dt class="stats__numder">
+                <b>5 кг</b>
+              </dt>
+              <dd class="stats__description">
+              снижение веса
+              </dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__numder">
+                <b>60 дней</b>
+              </dt>
+              <dd class="stats__description">
+              затрачено времени
+              </dd>
+            </div>
+          </dl>
+        </div>
         <p class="example__text example__text--location">Затраты на питание:<span class="example__number">15 000 РУБ.</span></p>
-          <div class="compare-slider__list">
+          <div class="compare-slider">
             <img class="compare-slider__item" src="before" alt="толстый кот">
             <img class="compare-slider__item" src="after" alt="худой кот">
             <p class="compare-slider__toggles compare-slider__toggles">
@@ -119,26 +121,29 @@
         <img class="location__map" src="" alt="карта города Санкт-Петербург" width="320" height="362">
       </section>
     </main>
+
     <footer class="main-footer">
       <div class="main-footer__container">
         <a class="logo" href="index.html" aria-current="page">
           <img class="logo__text" src="source/images/icons/logo-text.svg" alt="Название сайта cat energy" width="101" height="18">
         </a>
-        <ul class="social__list">
-         <li class="social__item">
-            <a class="social__link social__link--vk" href="https://vk.com/htmlacademy"><span class="visually-hidden">Мы в Вконтакте</span></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Мы в Ютубе</span></a>
-         </li>
-         <li class="social__item">
-           <a class="social__link social__link--tme" href="https://t.me/htmlacademy"><span class="visually-hidden">Мы в Телеграме</span></a>
-         </li>
-        </ul>
-        <div class="footer__copyright copyright">
-          <a class="copyright-text__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-          <a class="copyright-icon__link" href="https://htmlacademy.ru/intensive/adaptive">
-            <img class="copyright-img" src="source/images/icons/html-academy.svg" alt="иконка сайта htmlacademy" width="27" height="34">
+        <div class="social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vk" href="https://vk.com/htmlacademy"><span class="visually-hidden">Мы в Вконтакте</span></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Мы в Ютубе</span></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--tme" href="https://t.me/htmlacademy"><span class="visually-hidden">Мы в Телеграме</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright-block copyright">
+          <a class="copyright__text-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="copyright__icon-link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img class="copyright__img" src="source/images/icons/html-academy.svg" alt="иконка сайта htmlacademy" width="27" height="34">
           </a>
         </div>
       </div>
