@@ -65,6 +65,7 @@
   color: $base-color-title;
   text-transform: uppercase;
   text-decoration: none;
+  position: relative;
 }
 
 .description__link::after {
@@ -75,4 +76,7 @@
   // background-position: center right 20px;
   width: 24px;
   height: 12px;
+  position: absolute;
+  right: -32px;
+  bottom: 5px;
 }
