@@ -27,6 +27,7 @@
           </picture>
         </a>
         <button class="main-nav__toggle" type="button">
+          <!-- <span class="main-nav__burger"></span> -->
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <div class="main-nav__wrapper">
@@ -47,12 +48,14 @@
 
     <main class="main-container">
       <section class="promo">
-        <h1 class="promo__title">Функциональное питание для котов</h1>
-        <p class="promo__slogan">Занялся собой? Займись котом!</p>
+        <div class="promo__bg">
+          <h1 class="promo__title">Функциональное питание для котов</h1>
+          <p class="promo__slogan">Занялся собой? Займись котом!</p>
+        </div>
         <picture>
           <source type="image/png" media="(min-width: 1200px)" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x" width="552" height="499">
           <source type="image/png" media="(min-width: 768px)" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x" width="709" height="609">
-          <img src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" alt="корм для котов" width="280" height="270">
+          <img class="promo__images" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" alt="корм для котов" width="280" height="270">
         </picture>
         <button class="promo__button button" type="button">подобрать программу</button>
       </section>
@@ -85,19 +88,19 @@
       <section class="advantages">
         <h2 class="advantages__title">Как это работает</h2>
           <ul class="advantages__list">
-            <li class="advantages__item advantages__item--1" >
+            <li class="advantages__item advantages__item--leaf advantages__item--1" >
               <!-- <img src="images/icons/tree-leaf.svg" alt="питательные вещества" width="26" height="31"> -->
               <p class="advantages__description">Функциональное питание содержит только полезные  питательные вещества.</p>
             </li>
-            <li class="advantages__item advantages__item--2" >
+            <li class="advantages__item advantages__item--instant advantages__item--2" >
               <!-- <img src="images/icons/instant.svg" alt="быстрорастворимый порошок" width="26" height="31"> -->
               <p class="advantages__description">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
             </li>
-            <li class="advantages__item advantages__item--3" >
+            <li class="advantages__item advantages__item--icon-eat advantages__item--3" >
               <!-- <img src="images/icons/icon-eat.svg" alt="функциональное питание" width="26" height="31"> -->
               <p class="advantages__description">Замените один-два приема обычной еды на наше функциональное питание.</p>
             </li>
-            <li class="advantages__item advantages__item--4" >
+            <li class="advantages__item advantages__item--scales advantages__item--4" >
               <!-- <img src="images/icons/icon-scales.svg" alt="весы" width="26" height="31"> -->
               <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
             </li>
@@ -165,7 +168,7 @@
     <footer class="main-footer">
       <div class="main-footer__container">
         <a class="logo" href="index.html" aria-current="page">
-          <img class="logo__text" src="images/logo-text.svg" alt="Название сайта cat energy" width="101" height="18">
+          <img class="logo__text" src="images/logo-text.svg" alt="Название сайта cat energy" width="128" height="18">
         </a>
         <div class="main-footer__social social">
           <ul class="social__list">
@@ -186,7 +189,7 @@
         </div>
       </div>
     </footer>
-    </footer>
+
 
 </body>
 </html>

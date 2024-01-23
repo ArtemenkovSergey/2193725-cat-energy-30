@@ -70,13 +70,11 @@
 
 .description__link::after {
   content: "";
-  display: block;
+  display: inline-block;
   background-image: url("../../images/icons/stack.svg#icon-arrow-link");
   background-repeat: no-repeat;
   // background-position: center right 20px;
   width: 24px;
   height: 12px;
-  position: absolute;
-  right: -32px;
-  bottom: 5px;
+  margin-left: 15px;
 }

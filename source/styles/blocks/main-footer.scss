@@ -16,14 +16,22 @@
   }
 }
 
-// .main-footer__container {
+.main-footer__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
-// }
+.main-footer__social {
+  margin: 0 auto;
+}
 
-// .main-footer__social {
+.main-footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
 
-// }
-
-// .main-footer__copyright {
-
-// }
+.main-footer__container a {
+  margin: 0 auto;
+  padding-top: 40px;
+}
