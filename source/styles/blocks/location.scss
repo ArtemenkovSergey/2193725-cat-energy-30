@@ -5,21 +5,22 @@
 
 .location__contacts {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   margin: 26px 0;
 }
 
 .location__title {
   font-family: $secondary-font;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   color: $special-dark-grey;
   margin: 0;
+  margin-right: 19px;
 }
 
 .location__text {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   font-style: normal;
   color: $base-color-text;

@@ -1,4 +1,5 @@
 .example {
+  margin-top: 49px;
   background: $special-grey;
 
   @media (min-width: $desktop-width) {
@@ -24,6 +25,9 @@
   line-height: 40px;
   font-weight: 400;
   color: $base-color-title;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 .example__description {
@@ -39,6 +43,8 @@
   font-weight: 400;
   color: $base-color-title;
   text-transform: uppercase;
+  margin: 0;
+  text-align: center;
 }
 
 // .example__text--location {

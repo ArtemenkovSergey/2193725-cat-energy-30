@@ -20,6 +20,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .main-footer__social {
@@ -33,5 +36,4 @@
 
 .main-footer__container a {
   margin: 0 auto;
-  padding-top: 40px;
 }
